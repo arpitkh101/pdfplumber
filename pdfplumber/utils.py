@@ -7,8 +7,8 @@ from operator import itemgetter, gt, lt, add, sub
 import itertools
 from functools import lru_cache as cache
 
-DEFAULT_X_TOLERANCE = 3
-DEFAULT_Y_TOLERANCE = 3
+DEFAULT_X_TOLERANCE = 1
+DEFAULT_Y_TOLERANCE = 1
 
 
 def cluster_list(xs, tolerance=0):
